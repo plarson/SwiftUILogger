@@ -20,7 +20,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/apple/swift-collections.git",
-            .upToNextMinor(from: "1.0.0") // or `.upToNextMajor
+            .upToNextMajor(from: "1.0.0")
         )
     ],
     targets: [
